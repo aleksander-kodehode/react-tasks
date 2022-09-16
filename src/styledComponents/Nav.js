@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Nav = styled.nav`
   width: 100%;
@@ -18,7 +18,7 @@ export const NavList = styled.ul`
   display: flex;
   flex: row;
 `;
-export const NavItems = styled(Link)`
+export const NavItems = styled(NavLink)`
   background: brown;
   color: white;
   height: 2rem;
